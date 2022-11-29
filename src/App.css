@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
+  padding-left: calc(50% - calc(1140px / 2));
+  padding-right: calc(50% - calc(1140px / 2));
+}
+
+.border {
+  border: 1px solid gray;
+  width: 80%;
+  height: 18px;
+  padding: 8px;
+  font-size: small;
+}
+
+.border:focus {
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.qr {
+  margin: auto;
+  margin-top: 20px;
+}
